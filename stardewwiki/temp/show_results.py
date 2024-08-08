@@ -58,11 +58,11 @@ def draw_table(out_data):
 
 if __name__ == '__main__':
 
-    with open('./stardewwiki/temp/results.json', encoding='utf-8') as f:
+    with open('./stardewwiki/temp/results_fish.json', encoding='utf-8') as f:
         raw_data = json.load(f)
 
     for fish in raw_data:
-        if '春季' in fish['季节'] and '收集包' in fish['用途']:
+        if '夏季' in fish['季节'] and '收集包' in fish['用途']:
             out_data['名称'].append(fish['名称'])
             out_data['位置'].append(fish['位置'])
             out_data['时间'].append(fish['时间'])

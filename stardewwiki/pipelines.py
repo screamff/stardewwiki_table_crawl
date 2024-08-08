@@ -5,7 +5,7 @@
 
 
 # useful for handling different item types with a single interface
-from itemadapter import ItemAdapter
+from stardewwiki.items import FishItem
 from pathlib import Path
 import json
 
@@ -13,14 +13,31 @@ current_folder = Path(__file__).resolve().parent
 out_path = current_folder / 'temp'
 out_path.mkdir(parents=True, exist_ok=True)
 
-class StardewwikiPipeline:
+class FishPipeline:
     def open_spider(self, spider):
         self.items = []
 
     def close_spider(self, spider):
-        with open(out_path / "results.json", "w", encoding='utf-8') as file:
-            json.dump(self.items, file, ensure_ascii=False, indent=2)
+        if self.items:
+            with open(out_path / "results_fish.json", "w", encoding='utf-8') as file:
+                json.dump(self.items, file, ensure_ascii=False, indent=2)
 
     def process_item(self, item, spider):
-        self.items.append(dict(item))
+        if isinstance(item, FishItem):
+            self.items.append(dict(item))
+        return item
+
+
+class BundlePipeline:
+    def open_spider(self, spider):
+        self.items = []
+
+    def close_spider(self, spider):
+        if self.items:
+            with open(current_folder / "flask_show_data/results_bundle.json", "w", encoding='utf-8') as file:
+                json.dump(self.items, file, ensure_ascii=False, indent=2)
+
+    def process_item(self, item, spider):
+        if not isinstance(item, FishItem):
+            self.items.append(dict(item))
         return item

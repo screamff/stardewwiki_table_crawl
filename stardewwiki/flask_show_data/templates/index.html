@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>收集包展示</title>
+    <link rel="shortcut icon" href="https://zh.stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h3 {
+            font-size: 90%;
+        }
+
+        .room {
+            margin-bottom: 20px;
+        }
+
+        .room-header {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .room-header h2 {
+            margin-right: 10px;
+        }
+
+        .packages-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .package {
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 2px;
+        }
+
+        .package-header {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .package.completed {
+            display: none;
+        }
+
+        .items-container {
+            display: grid;
+            /* 默认展开 */
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .item input[type="checkbox"] {
+            margin-right: 10px;
+            width: 20px;
+            height: 20px;
+        }
+
+        .item img {
+            margin-right: 10px;
+        }
+
+        .item.completed .item-name {
+            color: #666;
+            text-decoration: line-through;
+        }
+
+        h3.bundlecompleted {
+            color: rgb(107, 141, 45)
+        }
+    </style>
+</head>
+
+<body>
+    <div id="collection-container">
+        <button onclick="toggleAllCompleted()">显示/隐藏全部已勾选物品</button>
+        {% for room in data %}
+        <div class="room">
+            <div class="room-header">
+                <h2>{{ room["收集包房间"] }}</h2>
+                <button type="button" class="collapsible">折叠/展开</button>
+            </div>
+            <div class="packages-container" style="display: flex">
+                {% for pack in room["收集包"] %}
+                <div class="package" data-required="{{ pack['所需数量'] }}">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <h3>{{ pack["收集包名称"] }}</h3>
+                        <p><span>0</span>/{{ pack['所需数量'] }}</p>
+                        <button>折叠/展开</button>
+                    </div>
+                    <div class="items-container" style="display: block">
+                        {% for item in pack["物品"] %}
+                        <div class="item">
+                            <input type="checkbox" name="item-{{ loop.index0 }}" title="{{ item['物品名称'] }}"
+                                onchange="toggleItem(this)">
+                            <img src="{{ item['物品图片链接'] }}" alt="{{ item['物品名称'] }}">
+                            <a href="{{ item['物品链接'] }}" target="_blank" class="item-name">{{ item["物品名称"] }}</a>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>

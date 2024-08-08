@@ -2,7 +2,6 @@ import scrapy
 from stardewwiki.items import FishItem
 
 class FishSpider(scrapy.Spider):
-    """"搜索歌曲, 结果存储在temp/results.json"""
     name = 'fish'
     start_urls = [r'https://zh.stardewvalleywiki.com/鱼']
 

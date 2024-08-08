@@ -1,0 +1,844 @@
+[
+  {
+    "收集包房间": "工艺室",
+    "收集包": [
+      {
+        "收集包名称": "春季采集收集包",
+        "所需数量": 4,
+        "物品": [
+          {
+            "物品名称": "野山葵",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%87%8E%E5%B1%B1%E8%91%B5",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/90/Wild_Horseradish.png/24px-Wild_Horseradish.png"
+          },
+          {
+            "物品名称": "黄水仙",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%BB%84%E6%B0%B4%E4%BB%99",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/4b/Daffodil.png/24px-Daffodil.png"
+          },
+          {
+            "物品名称": "韭葱",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%9F%AD%E8%91%B1",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/57/Leek.png/24px-Leek.png"
+          },
+          {
+            "物品名称": "蒲公英",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%92%B2%E5%85%AC%E8%8B%B1",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b1/Dandelion.png/24px-Dandelion.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "夏季采集收集包",
+        "所需数量": 3,
+        "物品": [
+          {
+            "物品名称": "葡萄",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%91%A1%E8%90%84",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c2/Grape.png/24px-Grape.png"
+          },
+          {
+            "物品名称": "香味浆果",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%A6%99%E5%91%B3%E6%B5%86%E6%9E%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c6/Spice_Berry.png/24px-Spice_Berry.png"
+          },
+          {
+            "物品名称": "甜豌豆",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%94%9C%E8%B1%8C%E8%B1%86",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/d9/Sweet_Pea.png/24px-Sweet_Pea.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "秋季采集收集包",
+        "所需数量": 4,
+        "物品": [
+          {
+            "物品名称": "普通蘑菇",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%99%AE%E9%80%9A%E8%98%91%E8%8F%87",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/2e/Common_Mushroom.png/24px-Common_Mushroom.png"
+          },
+          {
+            "物品名称": "野梅",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%87%8E%E6%A2%85",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3b/Wild_Plum.png/24px-Wild_Plum.png"
+          },
+          {
+            "物品名称": "榛子",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%A6%9B%E5%AD%90",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/31/Hazelnut.png/24px-Hazelnut.png"
+          },
+          {
+            "物品名称": "黑莓",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%BB%91%E8%8E%93",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/25/Blackberry.png/24px-Blackberry.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "冬季采集收集包",
+        "所需数量": 4,
+        "物品": [
+          {
+            "物品名称": "冬根",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%86%AC%E6%A0%B9",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/11/Winter_Root.png/24px-Winter_Root.png"
+          },
+          {
+            "物品名称": "水晶果",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%B0%B4%E6%99%B6%E6%9E%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Crystal_Fruit.png/24px-Crystal_Fruit.png"
+          },
+          {
+            "物品名称": "雪山药",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%9B%AA%E5%B1%B1%E8%8D%AF",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3f/Snow_Yam.png/24px-Snow_Yam.png"
+          },
+          {
+            "物品名称": "番红花",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%95%AA%E7%BA%A2%E8%8A%B1",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/2f/Crocus.png/24px-Crocus.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "建筑收集包",
+        "所需数量": 4,
+        "物品": [
+          {
+            "物品名称": "木材（99）",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%9C%A8%E6%9D%90",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/df/Wood.png/24px-Wood.png"
+          },
+          {
+            "物品名称": "木材（99）",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%9C%A8%E6%9D%90",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/df/Wood.png/24px-Wood.png"
+          },
+          {
+            "物品名称": "石头（99）",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%9F%B3%E5%A4%B4",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/d4/Stone.png/24px-Stone.png"
+          },
+          {
+            "物品名称": "硬木（10）",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%A1%AC%E6%9C%A8",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ed/Hardwood.png/24px-Hardwood.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "异国情调采集收集包",
+        "所需数量": 5,
+        "物品": [
+          {
+            "物品名称": "椰子",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%A4%B0%E5%AD%90",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/2f/Coconut.png/24px-Coconut.png"
+          },
+          {
+            "物品名称": "仙人掌果子",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E4%BB%99%E4%BA%BA%E6%8E%8C%E6%9E%9C%E5%AD%90",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/32/Cactus_Fruit.png/24px-Cactus_Fruit.png"
+          },
+          {
+            "物品名称": "山洞萝卜",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%B1%B1%E6%B4%9E%E8%90%9D%E5%8D%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/34/Cave_Carrot.png/24px-Cave_Carrot.png"
+          },
+          {
+            "物品名称": "红蘑菇",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%BA%A2%E8%98%91%E8%8F%87",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e1/Red_Mushroom.png/24px-Red_Mushroom.png"
+          },
+          {
+            "物品名称": "紫蘑菇",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%B4%AB%E8%98%91%E8%8F%87",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/4b/Purple_Mushroom.png/24px-Purple_Mushroom.png"
+          },
+          {
+            "物品名称": "枫糖浆",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%9E%AB%E7%B3%96%E6%B5%86",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/6a/Maple_Syrup.png/24px-Maple_Syrup.png"
+          },
+          {
+            "物品名称": "橡树树脂",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%A9%A1%E6%A0%91%E6%A0%91%E8%84%82",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/40/Oak_Resin.png/24px-Oak_Resin.png"
+          },
+          {
+            "物品名称": "松焦油",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%9D%BE%E7%84%A6%E6%B2%B9",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/ce/Pine_Tar.png/24px-Pine_Tar.png"
+          },
+          {
+            "物品名称": "羊肚菌",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%BE%8A%E8%82%9A%E8%8F%8C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b1/Morel.png/24px-Morel.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "收集包房间": "茶水间",
+    "收集包": [
+      {
+        "收集包名称": "春季作物收集包",
+        "所需数量": 4,
+        "物品": [
+          {
+            "物品名称": "防风草",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%98%B2%E9%A3%8E%E8%8D%89",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/db/Parsnip.png/24px-Parsnip.png"
+          },
+          {
+            "物品名称": "青豆",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%9D%92%E8%B1%86",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/5c/Green_Bean.png/24px-Green_Bean.png"
+          },
+          {
+            "物品名称": "花椰菜",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%8A%B1%E6%A4%B0%E8%8F%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/aa/Cauliflower.png/24px-Cauliflower.png"
+          },
+          {
+            "物品名称": "土豆",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%9C%9F%E8%B1%86",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c2/Potato.png/24px-Potato.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "夏季作物收集包",
+        "所需数量": 4,
+        "物品": [
+          {
+            "物品名称": "西红柿",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%A5%BF%E7%BA%A2%E6%9F%BF",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/9d/Tomato.png/24px-Tomato.png"
+          },
+          {
+            "物品名称": "辣椒",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%BE%A3%E6%A4%92",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f1/Hot_Pepper.png/24px-Hot_Pepper.png"
+          },
+          {
+            "物品名称": "蓝莓",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%93%9D%E8%8E%93",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/9e/Blueberry.png/24px-Blueberry.png"
+          },
+          {
+            "物品名称": "甜瓜",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%94%9C%E7%93%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/19/Melon.png/24px-Melon.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "秋季作物收集包",
+        "所需数量": 4,
+        "物品": [
+          {
+            "物品名称": "玉米",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%8E%89%E7%B1%B3",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f8/Corn.png/24px-Corn.png"
+          },
+          {
+            "物品名称": "茄子",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%8C%84%E5%AD%90",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/8f/Eggplant.png/24px-Eggplant.png"
+          },
+          {
+            "物品名称": "南瓜",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%8D%97%E7%93%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/64/Pumpkin.png/24px-Pumpkin.png"
+          },
+          {
+            "物品名称": "山药",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%B1%B1%E8%8D%AF",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/52/Yam.png/24px-Yam.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "高品质作物收集包",
+        "所需数量": 3,
+        "物品": [
+          {
+            "物品名称": "防风草（5）",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%98%B2%E9%A3%8E%E8%8D%89",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/db/Parsnip.png/24px-Parsnip.png"
+          },
+          {
+            "物品名称": "甜瓜（5）",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%94%9C%E7%93%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/19/Melon.png/24px-Melon.png"
+          },
+          {
+            "物品名称": "南瓜（5）",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%8D%97%E7%93%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/64/Pumpkin.png/24px-Pumpkin.png"
+          },
+          {
+            "物品名称": "玉米（5）",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%8E%89%E7%B1%B3",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f8/Corn.png/24px-Corn.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "动物收集包",
+        "所需数量": 5,
+        "物品": [
+          {
+            "物品名称": "大壶牛奶",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%A4%A7%E5%A3%B6%E7%89%9B%E5%A5%B6",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/67/Large_Milk.png/24px-Large_Milk.png"
+          },
+          {
+            "物品名称": "棕色大鸡蛋",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%A4%A7%E9%B8%A1%E8%9B%8B",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/91/Large_Brown_Egg.png/24px-Large_Brown_Egg.png"
+          },
+          {
+            "物品名称": "大鸡蛋",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%A4%A7%E9%B8%A1%E8%9B%8B",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/5d/Large_Egg.png/24px-Large_Egg.png"
+          },
+          {
+            "物品名称": "大瓶羊奶",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%A4%A7%E7%93%B6%E7%BE%8A%E5%A5%B6",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f2/Large_Goat_Milk.png/24px-Large_Goat_Milk.png"
+          },
+          {
+            "物品名称": "动物毛",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%8A%A8%E7%89%A9%E6%AF%9B",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/34/Wool.png/24px-Wool.png"
+          },
+          {
+            "物品名称": "鸭蛋",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%B8%AD%E8%9B%8B",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/31/Duck_Egg.png/24px-Duck_Egg.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "工匠收集包",
+        "所需数量": 6,
+        "物品": [
+          {
+            "物品名称": "松露油",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%9D%BE%E9%9C%B2%E6%B2%B9",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3d/Truffle_Oil.png/24px-Truffle_Oil.png"
+          },
+          {
+            "物品名称": "布料",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%B8%83%E6%96%99",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/51/Cloth.png/24px-Cloth.png"
+          },
+          {
+            "物品名称": "山羊奶酪",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%B1%B1%E7%BE%8A%E5%A5%B6%E9%85%AA",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c8/Goat_Cheese.png/24px-Goat_Cheese.png"
+          },
+          {
+            "物品名称": "奶酪",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%A5%B6%E9%85%AA",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a5/Cheese.png/24px-Cheese.png"
+          },
+          {
+            "物品名称": "蜂蜜",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%9C%82%E8%9C%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c6/Honey.png/24px-Honey.png"
+          },
+          {
+            "物品名称": "果酱",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%9E%9C%E9%85%B1%E5%92%8C%E8%85%8C%E8%8F%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/05/Jelly.png/24px-Jelly.png"
+          },
+          {
+            "物品名称": "苹果",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%8B%B9%E6%9E%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/7d/Apple.png/24px-Apple.png"
+          },
+          {
+            "物品名称": "杏子",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%9D%8F%E5%AD%90",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/fc/Apricot.png/24px-Apricot.png"
+          },
+          {
+            "物品名称": "橙子",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%A9%99%E5%AD%90",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/43/Orange.png/24px-Orange.png"
+          },
+          {
+            "物品名称": "桃子",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%A1%83%E5%AD%90",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e2/Peach.png/24px-Peach.png"
+          },
+          {
+            "物品名称": "石榴",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%9F%B3%E6%A6%B4",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/1b/Pomegranate.png/24px-Pomegranate.png"
+          },
+          {
+            "物品名称": "樱桃",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%A8%B1%E6%A1%83",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/20/Cherry.png/24px-Cherry.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "收集包房间": "鱼缸",
+    "收集包": [
+      {
+        "收集包名称": "河鱼收集包",
+        "所需数量": 4,
+        "物品": [
+          {
+            "物品名称": "太阳鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%A4%AA%E9%98%B3%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/56/Sunfish.png/24px-Sunfish.png"
+          },
+          {
+            "物品名称": "鲶鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%B2%B6%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/99/Catfish.png/24px-Catfish.png"
+          },
+          {
+            "物品名称": "西鲱",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%A5%BF%E9%B2%B1",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ef/Shad.png/24px-Shad.png"
+          },
+          {
+            "物品名称": "虎纹鳟鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%99%8E%E7%BA%B9%E9%B3%9F%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/01/Tiger_Trout.png/24px-Tiger_Trout.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "湖鱼收集包",
+        "所需数量": 4,
+        "物品": [
+          {
+            "物品名称": "大嘴鲈鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%A4%A7%E5%98%B4%E9%B2%88%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/11/Largemouth_Bass.png/24px-Largemouth_Bass.png"
+          },
+          {
+            "物品名称": "鲤鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%B2%A4%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a8/Carp.png/24px-Carp.png"
+          },
+          {
+            "物品名称": "大头鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%A4%A7%E5%A4%B4%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/db/Bullhead.png/24px-Bullhead.png"
+          },
+          {
+            "物品名称": "鲟鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%B2%9F%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/42/Sturgeon.png/24px-Sturgeon.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "海鱼收集包",
+        "所需数量": 4,
+        "物品": [
+          {
+            "物品名称": "沙丁鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%B2%99%E4%B8%81%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/04/Sardine.png/24px-Sardine.png"
+          },
+          {
+            "物品名称": "金枪鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%87%91%E6%9E%AA%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c5/Tuna.png/24px-Tuna.png"
+          },
+          {
+            "物品名称": "红鲷鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%BA%A2%E9%B2%B7%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/d3/Red_Snapper.png/24px-Red_Snapper.png"
+          },
+          {
+            "物品名称": "罗非鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%BD%97%E9%9D%9E%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/73/Tilapia.png/24px-Tilapia.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "夜间垂钓收集包",
+        "所需数量": 3,
+        "物品": [
+          {
+            "物品名称": "大眼鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%A4%A7%E7%9C%BC%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/05/Walleye.png/24px-Walleye.png"
+          },
+          {
+            "物品名称": "鲷鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%B2%B7%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/82/Bream.png/24px-Bream.png"
+          },
+          {
+            "物品名称": "鳗鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%B3%97%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/91/Eel.png/24px-Eel.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "蟹笼收集包",
+        "所需数量": 5,
+        "物品": [
+          {
+            "物品名称": "龙虾",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%BE%99%E8%99%BE",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/9f/Lobster.png/24px-Lobster.png"
+          },
+          {
+            "物品名称": "小龙虾",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%B0%8F%E9%BE%99%E8%99%BE",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/53/Crayfish.png/24px-Crayfish.png"
+          },
+          {
+            "物品名称": "螃蟹",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%9E%83%E8%9F%B9",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/63/Crab.png/24px-Crab.png"
+          },
+          {
+            "物品名称": "鸟蛤",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%B8%9F%E8%9B%A4",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/ad/Cockle.png/24px-Cockle.png"
+          },
+          {
+            "物品名称": "蚌",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%9A%8C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/aa/Mussel.png/24px-Mussel.png"
+          },
+          {
+            "物品名称": "虾",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%99%BE",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/91/Shrimp.png/24px-Shrimp.png"
+          },
+          {
+            "物品名称": "蜗牛",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%9C%97%E7%89%9B",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/d2/Snail.png/24px-Snail.png"
+          },
+          {
+            "物品名称": "玉黍螺",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%8E%89%E9%BB%8D%E8%9E%BA",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/1d/Periwinkle.png/24px-Periwinkle.png"
+          },
+          {
+            "物品名称": "牡蛎",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%89%A1%E8%9B%8E",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/54/Oyster.png/24px-Oyster.png"
+          },
+          {
+            "物品名称": "蛤",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%9B%A4",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ed/Clam.png/24px-Clam.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "特色鱼类收集包",
+        "所需数量": 4,
+        "物品": [
+          {
+            "物品名称": "河豚",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%B2%B3%E8%B1%9A",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/ba/Pufferfish.png/24px-Pufferfish.png"
+          },
+          {
+            "物品名称": "鬼鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%AC%BC%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/72/Ghostfish.png/24px-Ghostfish.png"
+          },
+          {
+            "物品名称": "沙鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%B2%99%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/bb/Sandfish.png/24px-Sandfish.png"
+          },
+          {
+            "物品名称": "木跃鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%9C%A8%E8%B7%83%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/97/Woodskip.png/24px-Woodskip.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "收集包房间": "锅炉房",
+    "收集包": [
+      {
+        "收集包名称": "铁匠的收集包",
+        "所需数量": 3,
+        "物品": [
+          {
+            "物品名称": "铜锭",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%93%9C%E9%94%AD",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f1/Copper_Bar.png/24px-Copper_Bar.png"
+          },
+          {
+            "物品名称": "铁锭",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%93%81%E9%94%AD",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/6c/Iron_Bar.png/24px-Iron_Bar.png"
+          },
+          {
+            "物品名称": "金锭",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%87%91%E9%94%AD",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/4e/Gold_Bar.png/24px-Gold_Bar.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "地理学家的收集包",
+        "所需数量": 4,
+        "物品": [
+          {
+            "物品名称": "石英",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%9F%B3%E8%8B%B1",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/cf/Quartz.png/24px-Quartz.png"
+          },
+          {
+            "物品名称": "地晶",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%9C%B0%E6%99%B6",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/74/Earth_Crystal.png/24px-Earth_Crystal.png"
+          },
+          {
+            "物品名称": "泪晶",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%B3%AA%E6%99%B6",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ec/Frozen_Tear.png/24px-Frozen_Tear.png"
+          },
+          {
+            "物品名称": "火水晶",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%81%AB%E6%B0%B4%E6%99%B6",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/5b/Fire_Quartz.png/24px-Fire_Quartz.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "冒险家的收集包",
+        "所需数量": 2,
+        "物品": [
+          {
+            "物品名称": "史莱姆泥（99）",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%8F%B2%E8%8E%B1%E5%A7%86%E6%B3%A5",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/38/Slime.png/24px-Slime.png"
+          },
+          {
+            "物品名称": "蝙蝠翅膀（10）",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%9D%99%E8%9D%A0%E7%BF%85%E8%86%80",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/35/Bat_Wing.png/24px-Bat_Wing.png"
+          },
+          {
+            "物品名称": "太阳精华",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%A4%AA%E9%98%B3%E7%B2%BE%E5%8D%8E",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f4/Solar_Essence.png/24px-Solar_Essence.png"
+          },
+          {
+            "物品名称": "虚空精华",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%99%9A%E7%A9%BA%E7%B2%BE%E5%8D%8E",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/1f/Void_Essence.png/24px-Void_Essence.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "收集包房间": "布告栏",
+    "收集包": [
+      {
+        "收集包名称": "厨师收集包",
+        "所需数量": 6,
+        "物品": [
+          {
+            "物品名称": "枫糖浆",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%9E%AB%E7%B3%96%E6%B5%86",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/6a/Maple_Syrup.png/24px-Maple_Syrup.png"
+          },
+          {
+            "物品名称": "蕨菜",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%95%A8%E8%8F%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/48/Fiddlehead_Fern.png/24px-Fiddlehead_Fern.png"
+          },
+          {
+            "物品名称": "松露",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%9D%BE%E9%9C%B2",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f2/Truffle.png/24px-Truffle.png"
+          },
+          {
+            "物品名称": "虞美人",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%99%9E%E7%BE%8E%E4%BA%BA",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/37/Poppy.png/24px-Poppy.png"
+          },
+          {
+            "物品名称": "生鱼寿司",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%94%9F%E9%B1%BC%E5%AF%BF%E5%8F%B8",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b6/Maki_Roll.png/24px-Maki_Roll.png"
+          },
+          {
+            "物品名称": "煎鸡蛋",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%85%8E%E9%B8%A1%E8%9B%8B",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/18/Fried_Egg.png/24px-Fried_Egg.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "染料收集包",
+        "所需数量": 6,
+        "物品": [
+          {
+            "物品名称": "红蘑菇",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%BA%A2%E8%98%91%E8%8F%87",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e1/Red_Mushroom.png/24px-Red_Mushroom.png"
+          },
+          {
+            "物品名称": "海胆",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%B5%B7%E8%83%86",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e7/Sea_Urchin.png/24px-Sea_Urchin.png"
+          },
+          {
+            "物品名称": "向日葵",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%90%91%E6%97%A5%E8%91%B5",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/81/Sunflower.png/24px-Sunflower.png"
+          },
+          {
+            "物品名称": "鸭毛",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%B8%AD%E6%AF%9B",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f9/Duck_Feather.png/24px-Duck_Feather.png"
+          },
+          {
+            "物品名称": "海蓝宝石",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%B5%B7%E8%93%9D%E5%AE%9D%E7%9F%B3",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a2/Aquamarine.png/24px-Aquamarine.png"
+          },
+          {
+            "物品名称": "红叶卷心菜",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%BA%A2%E5%8F%B6%E5%8D%B7%E5%BF%83%E8%8F%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/2d/Red_Cabbage.png/24px-Red_Cabbage.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "土地研究收集包",
+        "所需数量": 4,
+        "物品": [
+          {
+            "物品名称": "紫蘑菇",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%B4%AB%E8%98%91%E8%8F%87",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/4b/Purple_Mushroom.png/24px-Purple_Mushroom.png"
+          },
+          {
+            "物品名称": "鹦鹉螺",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%B9%A6%E9%B9%89%E8%9E%BA",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a4/Nautilus_Shell.png/24px-Nautilus_Shell.png"
+          },
+          {
+            "物品名称": "鲢鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E9%B2%A2%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/bd/Chub.png/24px-Chub.png"
+          },
+          {
+            "物品名称": "冰封晶球",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%86%B0%E5%B0%81%E6%99%B6%E7%90%83",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/bf/Frozen_Geode.png/24px-Frozen_Geode.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "饲料收集包",
+        "所需数量": 3,
+        "物品": [
+          {
+            "物品名称": "小麦（10）",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%B0%8F%E9%BA%A6",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e2/Wheat.png/24px-Wheat.png"
+          },
+          {
+            "物品名称": "干草（10）",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%B9%B2%E8%8D%89",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/aa/Hay.png/24px-Hay.png"
+          },
+          {
+            "物品名称": "苹果（3）",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%8B%B9%E6%9E%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/7d/Apple.png/24px-Apple.png"
+          }
+        ]
+      },
+      {
+        "收集包名称": "魔法师收集包",
+        "所需数量": 4,
+        "物品": [
+          {
+            "物品名称": "橡树树脂",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%A9%A1%E6%A0%91%E6%A0%91%E8%84%82",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/40/Oak_Resin.png/24px-Oak_Resin.png"
+          },
+          {
+            "物品名称": "果酒",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%9E%9C%E9%85%92",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/69/Wine.png/24px-Wine.png"
+          },
+          {
+            "物品名称": "兔子的脚",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E5%85%94%E5%AD%90%E7%9A%84%E8%84%9A",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/ca/Rabbit%27s_Foot.png/24px-Rabbit%27s_Foot.png"
+          },
+          {
+            "物品名称": "石榴",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E7%9F%B3%E6%A6%B4",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/1b/Pomegranate.png/24px-Pomegranate.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "收集包房间": "废弃Joja超市",
+    "收集包": [
+      {
+        "收集包名称": "失踪的收集包",
+        "所需数量": 5,
+        "物品": [
+          {
+            "物品名称": "银星品质的果酒 (任何水果)",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%9E%9C%E9%85%92",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/69/Wine.png/24px-Wine.png"
+          },
+          {
+            "物品名称": "恐龙蛋黄酱",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E6%81%90%E9%BE%99%E8%9B%8B%E9%BB%84%E9%85%B1",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c3/Dinosaur_Mayonnaise.png/24px-Dinosaur_Mayonnaise.png"
+          },
+          {
+            "物品名称": "五彩碎片",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E4%BA%94%E5%BD%A9%E7%A2%8E%E7%89%87",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/56/Prismatic_Shard.png/24px-Prismatic_Shard.png"
+          },
+          {
+            "物品名称": "金星品质的上古水果 (5)",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E4%B8%8A%E5%8F%A4%E6%B0%B4%E6%9E%9C",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/01/Ancient_Fruit.png/24px-Ancient_Fruit.png"
+          },
+          {
+            "物品名称": "金星品质的虚空鲑鱼",
+            "物品链接": "https://zh.stardewvalleywiki.com/%E8%99%9A%E7%A9%BA%E9%B2%91%E9%B1%BC",
+            "物品图片链接": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/ad/Void_Salmon.png/24px-Void_Salmon.png"
+          }
+        ]
+      }
+    ]
+  }
+]
