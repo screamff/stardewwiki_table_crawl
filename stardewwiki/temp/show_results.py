@@ -29,12 +29,6 @@ def draw_table(out_data):
     table = ax.table(cellText=df.values,
                     colLabels=df.columns,
                     cellLoc='center',
-                    loc='center')
-
-    # 创建表格
-    table = ax.table(cellText=df.values,
-                    colLabels=df.columns,
-                    cellLoc='center',
                     loc='center',
                     colColours=['#f5f5f5']*len(df.columns))
 
@@ -49,12 +43,13 @@ def draw_table(out_data):
             cell.set_facecolor('#897689')
 
     # 设置标题
-    plt.title('钓鱼参考', fontsize=15, color='black', pad=10)
+    # plt.title('钓鱼参考', fontsize=15, color='black', pad=10)
 
     # 调整列宽
     table.auto_set_column_width(range(len(out_data)))  # 调整列宽，使内容适合
 
     plt.show()
+
 
 if __name__ == '__main__':
 
@@ -62,7 +57,9 @@ if __name__ == '__main__':
         raw_data = json.load(f)
 
     for fish in raw_data:
-        if '夏季' in fish['季节'] and '收集包' in fish['用途']:
+        # if '秋季' in fish['季节'] and '收集包' in fish['用途'] and '春季' not in fish['季节'] and '夏季' not in fish['季节']:
+        # if '夏季' in fish['季节'] and '收集包' in fish['用途'] and '春季' not in fish['季节']:
+        if '春季' in fish['季节'] and '收集包' in fish['用途']:
             out_data['名称'].append(fish['名称'])
             out_data['位置'].append(fish['位置'])
             out_data['时间'].append(fish['时间'])
